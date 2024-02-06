@@ -21,7 +21,7 @@ class productController extends Controller
     [
         'name.required'=> 'Name is required',
         'name.unique'=> 'product already exists',
-        'price.required'=> 'product already exists',
+        'price.required'=> 'Product price is required',
              ]);
 
     

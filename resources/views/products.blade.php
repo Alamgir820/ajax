@@ -20,7 +20,7 @@
             <div class="col-md-9">
                 <h2 class="my-2 text-center">ajax crud</h2>
                 <a class="btn btn-success my-3 " data-bs-toggle="modal" data-bs-target="#addModal" href="">Add product</a>
-                <input type="text" name="search" id="search" class="mb-4 form-control" placeholder="Search here">
+                <input type="search" name="search" id="search" class="mb-4 form-control" placeholder="Search here">
                 <div class="table-data">
                     <table class="table table-bordered">
                         <thead>

@@ -46,10 +46,10 @@
                         "hideMethod": "fadeOut"
                         }
                 }
-            },function(err){
+            },error:function(err){
                 let error=err.responseJSON;
-                $.each(error.errors,function(index,value){
-                    $('.errMsgContainer').append('<spam class="text-danger">'+value+'</spam>')
+                $.each(error.errors,function(index, value){
+                    $('.errMsgContainer').append('<span class="text-danger">'+value+'</span>'+'<br>');
                 });
             }
            });
